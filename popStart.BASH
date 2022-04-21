@@ -14,6 +14,8 @@ wget -c https://kernel.ubuntu.com/~kernel-ppa/mainline/v5.18-rc1/amd64/linux-mod
 
 sudo dpkg -i *.deb
 
+sudo update-grub
+
 cd ~
 mkdir .icons
 mkdir .themes
