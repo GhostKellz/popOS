@@ -23,5 +23,21 @@ mkdir .themes
 sudo apt install gnome-tweaks
 sudo apt install gnome-shell extensions
 sudo apt install chrome-gnome-shell
+sudo apt install neofetch
+sudo apt install vim
+sudo apt install git 
+
+cd Downloads
+
+git clone https://github.com/vinceliuice/Colloid-gtk-theme.git
+
+cd /home/ck/Downloads/Colloid-gtk-theme-main
+
+./install.sh --tweaks dracula
+
+rm -r /home/ck/Downloads/Colloid-gtk-theme-main
+rm -r /home/ck/Downloads/Colloid-gtk-theme-main.zip
+
+
 
 sudo shutdown -r now
